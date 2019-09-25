@@ -1,0 +1,21 @@
+{
+  "name": "my-json-server",
+  "version": "0.0.1",
+  "description": "This is a very simple json server.",
+  "main": "server.js",
+  "scripts": {
+    "json:dev": "nodemon server.js"
+  },
+  "keywords": [
+    "json",
+    "server"
+  ],
+  "author": "Anthony Jackman <energeticpixels@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
